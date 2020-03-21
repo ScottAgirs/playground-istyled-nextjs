@@ -1,0 +1,58 @@
+{
+  "name": "playground-istyled-nextjs",
+  "version": "1.0.0",
+  "description": "Next.js with Styled-components",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijsto/istyled-nextjs.git"
+  },
+  "homepage": "https://ijs.to",
+  "bugs": {
+    "url": "https://github.com/ijsto/istyled-nextjs/issues",
+    "email": "code@ijs.to"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "babel-plugin-prismjs": "^2.0.1",
+    "next": "^9.3.1",
+    "prismjs": "^1.19.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "slate": "^0.57.1",
+    "slate-history": "^0.57.1",
+    "slate-react": "^0.57.1",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-nextjs": "^1.0.2",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "nextjs",
+    "nextjs layout",
+    "react",
+    "boilerplate",
+    "starter project"
+  ],
+  "author": "Scott Agirs Neminskis - iJS.to",
+  "license": "ISC"
+}
