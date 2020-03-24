@@ -24,16 +24,7 @@ const GlobalStyle = createGlobalStyle`
     padding-top: 64px;
     position: relative;
   }
-  code,pre {
-    * {
-        line-height: 1.5;
-    }
-    padding: 0.2em 0.4em;
-    margin: 0;
-    font-size: 85%;
-    background-color: rgba(27, 31, 35, 0.05);
-    border-radius: 3px;
-  }
+  
   h1,
   h2,
   h3,
@@ -100,9 +91,9 @@ const GlobalStyle = createGlobalStyle`
     margin: 0.7em;
     font-size: 0.75em;
   }
-  pre {
+  /* pre {
     padding: 2em !important;
-  }
+  } */
 `;
 
 class AppWrapper extends App {

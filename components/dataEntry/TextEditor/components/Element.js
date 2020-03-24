@@ -50,17 +50,13 @@ const Element = ({ attributes, children, element }) => {
     case 'list-item':
       return <li {...attributes}>{children}</li>;
     case 'code-line':
-      return (
-        <StyledCodeLine className="codeLine" {...attributes}>
-          {children}
-        </StyledCodeLine>
-      );
+      return <StyledCodeLine {...attributes}>{children}</StyledCodeLine>;
     case 'numbered-list':
       return <ol {...attributes}>{children}</ol>;
     case 'code-block':
       return (
-        <StyledCodeBlockPre className="line-numbers" {...attributes}>
-          <code className="language-js">{children}</code>
+        <StyledCodeBlockPre {...attributes}>
+          <code className="language-jsx">{children}</code>
         </StyledCodeBlockPre>
       );
     default:
