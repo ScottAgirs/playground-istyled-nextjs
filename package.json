@@ -13,7 +13,7 @@
     "email": "code@ijs.to"
   },
   "scripts": {
-    "dev": "next -p 3001",
+    "dev": "next -p 3000",
     "build": "next build",
     "start": "next start -p 3001"
   },
