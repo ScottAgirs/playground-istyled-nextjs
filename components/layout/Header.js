@@ -1,8 +1,4 @@
-import Link from 'next/link';
-
 import styled from 'styled-components';
-import Logo from '../Logo';
-import Meta from '../Meta';
 
 const StyledHeader = styled.header`
   align-items: center;
@@ -13,6 +9,7 @@ const StyledHeader = styled.header`
   justify-content: space-between;
   left: 0;
   padding: 0;
+  padding-left: 50px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -36,16 +33,7 @@ const StyledHeader = styled.header`
 `;
 
 const Header = () => {
-  return (
-    <StyledHeader>
-      <Meta />
-      <Link href="/">
-        <a className="logo">
-          <Logo />
-        </a>
-      </Link>
-    </StyledHeader>
-  );
+  return <StyledHeader>#StayInside</StyledHeader>;
 };
 
 export default Header;
