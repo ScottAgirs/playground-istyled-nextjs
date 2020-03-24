@@ -1,4 +1,4 @@
-<h1 align="center">Next.js with Styled-Components Playground</h1>
+<h1 align="center">Troubleshooting PrismJS + Next.js</h1>
 
 The component is located at `/components/dataEntry/TextEditor/index.js`
 
@@ -6,11 +6,11 @@ The component is located at `/components/dataEntry/TextEditor/index.js`
 
 From prismjs-slatejs branch
 
-1. Clone [this branch](https://github.com/ScottAgirs/playground-istyled-nextjs/tree/prismjs-slatejs)
+1. Clone [this repo](https://github.com/ScottAgirs/playground-istyled-nextjs)
 
 ```
 
-git clone --single-branch --branch prismjs-slatejs https://github.com/ScottAgirs/playground-istyled-nextjs.git prism-slate
+git clone https://github.com/ScottAgirs/playground-istyled-nextjs.git prism-slate
 
 ```
 
@@ -23,11 +23,16 @@ cd prism-slate
 ```
 
 3. Install project dependencies
+   `npm` or `yarn` - both have been tested, so can run either one!
 
-`yarn install` or `npm i`
+`yarn install`
 
-Run locally:
+4. Run locally - everything will work as expected, markup preserved, syntax highlighted:
 
-`npm run dev`
+`yarn dev`
+
+5. Run locally, but build first - the markup will be broken apart and collapsed into a single string, but won't be re-built.
+
+`yarn build` >> `yarn start`
 
 Starter project is live at: http://localhost:3000
