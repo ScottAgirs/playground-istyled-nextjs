@@ -33,6 +33,10 @@ cd prism-slate
 
 5. Run locally, but build first - the markup will be broken apart and collapsed into a single string, but won't be re-built.
 
-`yarn build` >> `yarn start`
+```
 
-Starter project is live at: http://localhost:3000
+yarn build
+
+yarn start
+
+```
